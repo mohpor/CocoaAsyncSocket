@@ -9,7 +9,8 @@ let package = Package(
     targets: [
         .target(
             name: "CocoaAsyncSocket",
-            path: "Source/GCD",
+            path: "Source",
+            sources: ["GCD"],
             publicHeadersPath: "Source"
         )
     ],
