@@ -11,7 +11,7 @@ let package = Package(
             name: "CocoaAsyncSocket",
             path: "Source",
             sources: ["GCD"],
-            publicHeadersPath: "Source"
+            publicHeadersPath: "."
         )
     ],
     swiftLanguageVersions: [.v5]
